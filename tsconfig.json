@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "esnext",
+    "paths": {
+      "@src*": ["src*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [".yarn", "dist"]
+}
