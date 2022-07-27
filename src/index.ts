@@ -1,1 +1,2 @@
-import "./array"
+import "./extensions"
+export * from "./helpers"
