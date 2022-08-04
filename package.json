@@ -5,9 +5,13 @@
   "name": "@evan-abc/typescript-helpers",
   "packageManager": "yarn@3.2.2",
   "types": "dist/index.d.ts",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "engines": {
     "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mountEvarus/typescript-extended.git"
   },
   "scripts": {
     "build": "tsc --project tsconfig.json"
