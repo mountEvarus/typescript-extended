@@ -51,13 +51,13 @@ bool.not() // false
 
 ### Number
 
-Milliseconds:
+Seconds:
 
 Converts numbers representing seconds into milliseconds.
 
 ```typescript
 const num  = 5
-num.milliseconds() // 5000
+num.seconds() // 5000
 ```
 
 ### Object

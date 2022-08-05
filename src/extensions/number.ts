@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface Number {
-  milliseconds(): number
+  seconds(): number
 }
 
-Number.prototype.milliseconds = function(): number {
+Number.prototype.seconds = function(): number {
   return this.valueOf() * 1000
 }
