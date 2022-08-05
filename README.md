@@ -1,4 +1,4 @@
-# Typescript Helpers v0.3.1
+# Typescript Helpers v0.3.2
 
 Provides helper functions and extension methods for Typescript
 

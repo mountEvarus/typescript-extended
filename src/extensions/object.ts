@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface Object {
-  matches(matcher: object, stringified: boolean): boolean
+  matches(matcher: object, stringified?: boolean): boolean
 }
 
 Object.prototype.matches = function (matcher: object, stringified = true): boolean {
