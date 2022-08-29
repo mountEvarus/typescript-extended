@@ -3,3 +3,4 @@ export function assert(predicate: boolean, error: Error): void {
     throw error
   }
 }
+
