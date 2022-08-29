@@ -15,5 +15,19 @@ describe("string extension function tests", () => {
 
     expect(result).toBe(value)
   })
+
+  test("'truncate()' extension function should truncate the string if the length is more then the specified size", () => {
+    const value = "foobar"
+    const result = value.truncate(2)
+
+    expect(result).toBe("fo...")
+  })
+
+  test("'truncate()' extension function should return the string if the length is less then the specified size", () => {
+    const value = "foobar"
+    const result = value.truncate()
+
+    expect(result).toBe(value)
+  })
   
 })
