@@ -1,4 +1,4 @@
-# Typescript Helpers v0.3.2
+# Typescript Helpers v0.3.5
 
 Provides helper functions and extension methods for Typescript
 
@@ -83,6 +83,15 @@ Capitalizes the first letter of a string.
 ```typescript
 const str = "hello world"
 str.capitalize() // "Hello world"
+```
+
+Truncate:
+
+Truncates the string to the size specified
+
+```typescript
+const str = "hello world
+str.truncate(3) // "Hel..."
 ```
 
 ## Helpers
